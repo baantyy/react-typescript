@@ -6,8 +6,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.completed {
+  text-decoration: line-through;
+}
+.todoBlock {
+  width: 500px;
+  display: table;
+  margin: 5px 0;
+}
+.todoBlock button {
+  float: right;
 }
